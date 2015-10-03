@@ -2,8 +2,6 @@
 
     function initialize() {
         var feeds = [
-            'http://blogs.opera.com/desktop/feed/',
-            'https://vivaldi.net/blogs/teamblog?format=feed&type=rss',
             'https://news.ycombinator.com/rss',
             'http://feeds2.feedburner.com/thenextweb',
             'http://www.theverge.com/rss/frontpage'
