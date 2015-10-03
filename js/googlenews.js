@@ -1,10 +1,4 @@
-<html>
-  <head>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-
     google.load("feeds", "1");
-
     function initialize() {
       var feed = new google.feeds.Feed("http://blogs.opera.com/desktop/feed/");
       feed.load(function(result) {
@@ -20,10 +14,7 @@
       });
     }
     google.setOnLoadCallback(initialize);
-
-    </script>
-  </head>
-  <body>
-    <div id="feed"></div>
-  </body>
-</html>
+	
+	
+	
+	
